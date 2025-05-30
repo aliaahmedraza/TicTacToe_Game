@@ -17,7 +17,7 @@ export const useTicTacToe = () => {
     const winner = checkWinner(newBoard)
     if (winner) {
       setTimeout(()=>
-        alert(`Player ${winner} Wins!`),1000)
+        alert(`Player ${winner} Wins!`),500)
       setTimeout(()=>resetGame(),2000)
       
     } else {
